@@ -1,0 +1,16 @@
+
+Creating a channel:
+
+	client ---"create"----> server
+	client <--$channel_id-- server
+	
+	Success if server does not kill connection.
+	Client is now associated with returned channel ID.
+	
+	
+Joining a channel:
+	
+	client --"join "$channel_id--> server
+	
+	Success if server does not kill connection.
+	
